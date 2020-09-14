@@ -19,6 +19,7 @@ import com.young.youngnews.module.media.channel.MediaChannelFragment;
 import com.young.youngnews.module.news.NewsFragment;
 import com.young.youngnews.module.photo.PhotoFragment;
 import com.young.youngnews.module.video.VideoFragment;
+import com.young.youngnews.module.wenda.article.WendaArticleView;
 
 public class MainActivity extends BaseActivity implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -48,6 +49,7 @@ public class MainActivity extends BaseActivity implements NavigationView.OnNavig
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
         initView();
     }

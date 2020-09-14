@@ -12,5 +12,6 @@ public class InitApp extends Application {
         super.onCreate();
 
         appContext = this;
+        
     }
 }
